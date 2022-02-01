@@ -1,0 +1,166 @@
+@charset "UTF-8";
+body {
+  background: #dde0eb;
+}
+body:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #3F436B;
+  color: rgb(179, 59, 59);
+  opacity: 0.6;
+}
+
+.iphone-x, 
+.screen-2,
+.planning-the-day {
+  position: relative;
+  width: 314px;
+  height: 620px;                                             
+  top: 50px;
+  bottom: 50px;
+
+  border-radius: 40px;
+  box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #111;
+
+
+}
+.planning-the-day{
+  top: -200px;
+  bottom: 20px;
+
+}
+.screen-2{
+  left: 404px;
+  top: -270px;
+  background: rgb(244, 240, 236);
+}
+.iphone-x{
+  left: 90px;
+  background: linear-gradient(180deg, #FFFAE0 -21.73%, #B6ECF2 75.77%);
+}
+.iphone-x:before, .iphone-x:after, 
+.screen-2:before, .screen-2:after,
+.planning-the-day:before, .planning-the-day:after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.iphone-x:before,
+.screen-2:before,
+.planning-the-day:before {
+  top: 0px;
+  width: 56%;
+  height: 30px;
+  background-color: #1f1f1f;
+  border-radius: 0px 0px 40px 40px;
+}
+h1{
+  position: absolute;
+  width: 314px;
+  top: 35px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #000000;
+
+}
+h2{
+  position: absolute;
+  width: 314px;
+  top: 65px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #000000;
+
+}
+.button{
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.button button:hover{
+  background-color: papayawhip;
+}
+
+.grid-container {
+  width: 250px;
+  height: 50px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.grid{
+  width: 280px;
+  height: 40px;
+  padding-top: 125px;
+  padding-left: 20px;
+}
+
+.grid-container button{
+  margin-bottom: 10px;
+  width: 100px;
+  height: 58px;
+}
+.top-locations{
+  padding-top: 40px;
+}
+
+.top-locations button{
+  width: 314px;
+  height: 50px;
+  margin-bottom: 20px;
+  overflow: scroll;
+  /* background: rgb(244, 240, 236);; */
+
+}
+.grid button{
+  width: 90px;
+  height: 50px;
+  font-style: 'Raleway';
+  font-size: 15px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  font-style: 'Raleway';
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
