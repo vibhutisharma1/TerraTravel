@@ -17,24 +17,25 @@ body:after {
 .planning-the-day {
   position: relative;
   width: 314px;
-  height: 620px;                                             
+  height: 620px;                                      
   top: 50px;
   bottom: 50px;
 
   border-radius: 40px;
   box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #111;
-
-
 }
+
 .planning-the-day{
-  top: -200px;
-  bottom: 20px;
+  left: 800px;
+  top: -893px;
+  width: 350px;
+  background: #FAF2D5
 
 }
 .screen-2{
   left: 404px;
   top: -270px;
-  background: rgb(244, 240, 236);
+  background: #f4f0ec;
 }
 .iphone-x{
   left: 90px;
@@ -78,7 +79,7 @@ h2{
   width: 314px;
   top: 65px;
 
-  font-family: 'Raleway';
+  
   font-style: normal;
   font-weight: 300;
   font-size: 23px;
@@ -92,6 +93,7 @@ h2{
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  font-family: 'Raleway';
 }
 .button button:hover{
   background-color: papayawhip;
@@ -126,6 +128,8 @@ h2{
   height: 50px;
   margin-bottom: 20px;
   overflow: scroll;
+  text-align: left;
+  font-style: 'Raleway';
   /* background: rgb(244, 240, 236);; */
 
 }
@@ -163,4 +167,209 @@ h2{
   display: block;
 }
 
+.planning-the-day img{
+  bottom: 200px;
+  
+}
+
+.planning-the-day h1{
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  top: 5px;
+  left: 35px;
+
+  color: #000000;
+
+    
+}
+
+.planning-the-day h2{
+  left: -90px;
+  font-size: 70px;
+  font-weight: 200;
+  line-height: 95px;
+  top: 45px;
+}
+
+
+.yellow-card{
+  position: absolute;
+  width: 350px;;
+  height: 303.78px;
+  left: 0px;
+  top: 32px;
+
+  background: #FAF2D5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+
+.yellow-card h4{
+  position: absolute;
+  width: 127px;
+  height: 32px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+
+color: #000000;
+}
+.weather{
+  left: -8px;
+  bottom: 47px;
+}
+.day{
+
+  left: 113px;
+  top: 255px;
+
+}
+.yellow-card l{
+  position: absolute;
+
+  height: 32px;
+  left: 127px;
+  top: 195px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+
+}
+
+.alert-card{
+  position: absolute;
+  width: 110px;
+  height: 111px;
+
+
+  background: #FACCD3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+}
+.locations{
+  right: 10px;
+  bottom: 10px;
+  width: 200px;
+  height: 70px;
+
+}
+.yellow {
+  left: 230px;
+  top: 135px;
+  width: 110px;
+  height: 111px;
+
+}
+
+.alert-card w{
+  position: absolute;
+  width: 132px;
+  height: 30px;
+  right: -10px;
+  bottom: 70px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #000000;
+
+}
+
+.locations w{
+  width: 200px;
+  height: 30px;
+  right: 10px;
+  bottom: 30px;
+}
+
+.alert-card button{
+  position: absolute;
+  width: 37px;
+  height: 34px;
+  right: 40px;
+  bottom: 5px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+}
+.locations button{
+  right: 20px;
+
+}
+
+
+.grid-filters{
+  width: 20px;
+  height: 50px;
+
+}
+.grid-filters button{
+  position: absolute;
+  width: 108.66px;
+  height: 27px;
+  
+  background: #F5FCFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.button-rain{
+  left: 6.67px;
+  top: 277px;
+  background: #F5FCFF;
+}
+.button-clear{
+  left: 120.72px;
+  top: 277px;
+  background: #F9FEFF;
+}
+.button-sun{
+  left: 236px;
+  top: 277px;
+  background: hsl(48, 76%, 92%);
+}
+
+.weather_info{
+  position: absolute;
+
+  left: 0px;
+  top: 333px;  
+
+}
+
+.button4{
+  background: #FACCD3
+}
+.button1{
+  background:#FFFAE0;
+}
+
+.button2{
+  background:#f7f2e6
+}
+.button3{
+  background:#e2eff1;
+}
+
+.key{
+  bottom: 300px;
+  left: 80px;
+}
 
